@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: linear-gradient(rgba(255,255,255,0.395),url(./images/background.jpg));
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    color: aqua;
+}
+/* nav bar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(248, 31, 31);
+}
+#logo img{
+    width: 80px;
+    height: 80px;
+    padding-left: 40px;
+    border-radius: 50%;
+}
+.ancor-tag{
+    margin-top: 20px;
+    padding-right: 80px;
+}
+.ancor-tag a{
+    color: tomato;
+    background-color: tan;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px 20px;
+}
